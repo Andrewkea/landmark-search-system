@@ -1,4 +1,3 @@
-```python
 """
 Configuration file for Landmark Search System
 """
@@ -36,4 +35,3 @@ CLEAN_THRESHOLDS = {
     'min_unique_colors': 100,
     'max_file_size_kb': 50,
 }
-
