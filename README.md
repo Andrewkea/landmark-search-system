@@ -14,7 +14,7 @@
 git clone https://github.com/Andrewkea/landmark-search-system.git
 cd landmark-search-system
 ```
-## 2. Установите зависимости
+## Установите зависимости
 ```bash
 pip install -r requirements.txt
 ```
@@ -39,7 +39,8 @@ decoded_images/ (изображения из base64)
 
 landmark_system.pk1 (поисковая система)
 
-💡 Использование
+## 💡 Использование
+
 Поиск по изображению
 ```bash
 python landmark_system.py search_image --image "путь/к/изображению.jpg" --top_k 5
@@ -87,6 +88,7 @@ MIT License
 GitHub: @Andrewkea
 
 ⭐ Если проект был полезен, поставьте звезду на GitHub!
+
 
 
 
