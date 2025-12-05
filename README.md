@@ -64,6 +64,38 @@ python landmark_system.py search_image --image path/to/your/image.jpg
 ```bash
 python landmark_system.py search_text --query "Эрмитаж"
 ```
+Система выдаст сообщение:
+```text
+============================================================
+TOP-5 IMAGES FOR: 'Эрмитаж'
+Search method: CLIP
+============================================================
+
+1. Авиамеханический колледж (score: 0.3147)
+   Category: architecture,historic_architecture,interesting_places,other_buildings_and_structures
+   City: Владимир
+   Path: C:\Users\424\Desktop\data\data\decoded_images\Vladimir\Vladimir_72_Авиамеханический колледж.jpg
+
+2. Владимир (score: 0.3141)
+   Category: historic,monuments_and_memorials,interesting_places,monuments
+   City: Владимир
+   Path: C:\Users\424\Desktop\data\data\decoded_images\Vladimir\Vladimir_1764_Владимир.jpg
+
+3. Владимир (score: 0.3141)
+   Category: historic,monuments_and_memorials,interesting_places,monuments
+   City: Владимир
+   Path: C:\Users\424\Desktop\data\data\decoded_images\Vladimir\Vladimir_1764_Владимир.jpg
+
+4. Владимир (score: 0.3141)
+   Category: historic,monuments_and_memorials,interesting_places,monuments
+   City: Владимир
+   Path: C:\Users\424\Desktop\data\data\decoded_images\Vladimir\Vladimir_1764_Владимир.jpg
+
+5. Дворец вице-губернатора (score: 0.3105)
+   Category: architecture,historic_architecture,interesting_places,other_buildings_and_structures
+   City: Нижний Новгород
+   Path: C:\Users\424\Desktop\data\data\decoded_images\NN\NN_489_Дворец вице-губернатора.jpg
+```
 ### 📊 Поддерживаемые города по умолчанию
 - EKB - Екатеринбург
 
@@ -132,6 +164,7 @@ GitHub: @Andrewkea
 - Сообществу open source
 
 # ⭐ Если проект был полезен, поставьте звезду на GitHub!
+
 
 
 
